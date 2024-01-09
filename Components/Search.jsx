@@ -8,7 +8,7 @@ function SearchBar({ searchTerm, setSearchTerm,searchDate,setsearchDate }) {
       onChange={(e) => setSearchTerm(e.target.value)}
     />
     {<input 
-      className="mb-2"
+      className="mb-2 ml-2 "
       type="date"
       placeholder="search by date"
       value={searchDate}

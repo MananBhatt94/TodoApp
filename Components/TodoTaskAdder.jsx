@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-// import {Input} from "@nextui-org/react";
+
 import { useState } from "react";
 
 function TodoTaskAdder({ addTodo }) {
@@ -14,7 +14,8 @@ function TodoTaskAdder({ addTodo }) {
             id,
             text,
             dueDate,
-            isImportant
+            isImportant,
+            
         }
         addTodo(task);
         setdueDate('')
